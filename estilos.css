@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor {
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+body{
+    background:  #2C3E50;
+    
+
+}
+
+
+.cabecera {
+    background: #E5E8E8 ;
+    overflow: hidden;
+    height: 100px;
+    padding-top: none;
+   
+}
+
+.cabecera .logo{
+    float: right;
+    margin-left: 10px;
+    height: 15px;
+    width: 20px;
+   
+    
+}
+
+.botones{
+    padding: 10px auto;
+   
+
+}
+.botones li{
+    float: right;
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+    border:  2px solid black;
+    margin-right: 10px;  
+}
+.botones li:hover{
+    background: green;
+    color: honeydew;
+}
+  
+.menu li a{
+   font-family: serif;
+   text-decoration: none;
+   text-align: center;
+   text-transform: uppercase;
+   color: black;  
+   
+
+}
+.menu li a  hover{
+    background: blue;
+
+}
+
+.banner{
+    width: 100px;
+
+}
